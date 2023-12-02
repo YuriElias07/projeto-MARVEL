@@ -1,0 +1,96 @@
+video{
+    position: fixed;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    opacity: 0.9;
+    width: 100vw;
+}
+
+body{
+    background-color: #1b1883;
+}
+
+.cabecalho{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px ;
+    font-family: 'bangers';
+    background-color: #1b1883;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.logo{
+    max-width: 100px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    padding-right: 20px;
+}
+
+.menu a:hover{
+    opacity: 0.7;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.conhecamais{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    color: #1b1883;
+}
+
+.informacoes h1{
+    font-size: 36px;
+    font-family: 'bangers';
+}
+
+.informacoes p{
+    font-family: 'Rubik Bubbles';
+    font-size: 48px;
+}
+
+.informacoes button{
+    font-family: 'bangers';
+    background-color: #1b1883;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}
+
+.informacoes button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 12px red;
+}
+
